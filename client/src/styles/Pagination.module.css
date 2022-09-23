@@ -1,0 +1,15 @@
+.pagination {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.li.active {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+}
+
+.li:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
